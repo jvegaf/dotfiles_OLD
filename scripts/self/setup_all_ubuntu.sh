@@ -11,7 +11,7 @@ sudo apt update
 sudo apt upgrade -y
 sudo apt-get install -y php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip}
 sudo apt-get install -y php-xdebug php-pacl java-1.8.0-amazon-corretto-jdk
-sudo apt-get -y install inkscape transmission git git-core zsh 
+sudo apt-get -y install inkscape transmission git git-core zsh python3-pip
 sudo apt-get -y install filezilla vim vlc build-essential gdebi
 sudo apt-get -y install htop screenfetch composer curl gnome-sushi
 sudo apt-get -y install wget docker.io docker-compose curl gnome-tweaks
