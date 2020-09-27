@@ -32,7 +32,7 @@ pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt"
 #composer global install
 
 log::note "Installing npm packages"
-xargs npm install -g <"$DOTFILES_PATH/langs/js/global_modules.txt"
+xargs sudo npm install -g <"$DOTFILES_PATH/langs/js/global_modules.txt"
 
 read -rp "🦑 Git config: What is you email? " git_email
 read -rp "🐙 Git config: And your name? " git_name
