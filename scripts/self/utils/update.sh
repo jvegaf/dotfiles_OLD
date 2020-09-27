@@ -2,6 +2,7 @@
 
 DOTBOT_DIR="modules/dotbot"
 DOTBOT_BIN="bin/dotbot"
+ZIM_HOME="${DOTFILES_PATH}/modules/zimfw"
 
 self_update() {
   cd "$DOTFILES_PATH" || exit
