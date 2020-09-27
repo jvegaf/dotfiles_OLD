@@ -46,8 +46,8 @@ sudo dpkg -i GitHubDesktop-linux-2.5.0-linux2.deb
 sudo apt-get -f -y install
 rm -rf GitHubDesktop-linux-2.5.0-linux2.deb
 
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-chsh -s `which zsh`
-
 sudo snap install code --classic
 sudo snap install intellij-idea-ultimate --classic
+
+wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+chsh -s `which zsh`
