@@ -40,6 +40,13 @@ sudo dpkg -i gitkraken-amd64.deb
 sudo apt-get -f -y install
 rm -rf gitkraken-amd64.deb
 
+# Albert
+curl https://build.opensuse.org/projects/home:manuelschneid3r/public_key | sudo apt-key add -
+echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbuntu_20.04/ /' | sudo tee /etc/apt/sources.list.d/home:manuelschneid3r.list
+sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_20.04/Release.key -O "/etc/apt/trusted.gpg.d/home:manuelschneid3r.asc"
+sudo apt-get update
+sudo apt-get -y install albert
+
 #Github Desktop
 wget https://github.com/shiftkey/desktop/releases/download/release-2.5.0-linux2/GitHubDesktop-linux-2.5.0-linux2.deb
 sudo dpkg -i GitHubDesktop-linux-2.5.0-linux2.deb
@@ -49,5 +56,5 @@ rm -rf GitHubDesktop-linux-2.5.0-linux2.deb
 sudo snap install code --classic
 sudo snap install intellij-idea-ultimate --classic
 
-wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
-chsh -s `which zsh`
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
+
