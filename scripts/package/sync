@@ -15,7 +15,7 @@ docs::eval "$@"
 #brew bundle dump --file="$HOMEBREW_BUNDLE_FILE_PATH" --force
 #echo 'Brew apps imported!'
 
-pip install -r "$DOTFILES_PATH/langs/python/requirements.txt"
+pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt"
 echo 'Python apps imported!'
 
 xargs -I_ npm install -g "_" <"$DOTFILES_PATH/langs/js/global_modules.txt"
