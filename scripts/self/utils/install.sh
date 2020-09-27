@@ -18,5 +18,5 @@ install_macos_custom() {
 }
 
 install_linux_custom() {
-  echo
+  sh "$DOTFILES_PATH/scripts/self/setup_all_ubuntu.sh"
 }

@@ -21,5 +21,5 @@ update_submodules
 log::note "Applying common Symlinks"
 apply_common_symlinks
 
-log::note "Applying macOS Symlinks"
-apply_macos_symlinks
+log::note "Applying Linux Symlinks"
+apply_linux_symlinks
