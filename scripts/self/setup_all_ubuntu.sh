@@ -51,8 +51,13 @@ sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/
 sudo apt-get update
 sudo apt-get install -y github-desktop
 
+#docpars
+cargo install docpars
+
 sudo snap install code --classic
 sudo snap install intellij-idea-ultimate --classic
+
+export PATH="$PATH:$HOME/.cargo/bin"
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
