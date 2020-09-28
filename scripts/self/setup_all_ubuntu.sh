@@ -53,11 +53,10 @@ sudo apt-get install -y github-desktop
 
 #docpars
 cargo install docpars
+export PATH="$PATH:$HOME/.cargo/bin"
 
 sudo snap install code --classic
 sudo snap install intellij-idea-ultimate --classic
-
-export PATH="$PATH:$HOME/.cargo/bin"
 
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
 
