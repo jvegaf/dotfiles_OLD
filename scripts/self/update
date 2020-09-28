@@ -15,11 +15,12 @@ docs::eval "$@"
 log::note "Updating dotfiles"
 self_update
 
-log::note "Updating submodules"
-update_submodules
-
 log::note "Applying common Symlinks"
 apply_common_symlinks
 
 log::note "Applying Linux Symlinks"
 apply_linux_symlinks
+
+log::note "Updating submodules"
+update_submodules
+
