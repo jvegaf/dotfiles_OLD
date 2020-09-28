@@ -4,17 +4,14 @@
 sudo apt -y install software-properties-common
 sudo add-apt-repository ppa:ondrej/php -y
 
-wget -O- https://apt.corretto.aws/corretto.key | sudo apt-key add - 
-sudo add-apt-repository 'deb https://apt.corretto.aws stable main'
-
 sudo apt update 
 sudo apt upgrade -y
 sudo apt-get install -y php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip}
-sudo apt-get install -y php-xdebug php-pacl java-1.8.0-amazon-corretto-jdk
-sudo apt-get -y install inkscape transmission git git-core zsh python3-pip
-sudo apt-get -y install filezilla vim vlc build-essential gdebi
-sudo apt-get -y install htop screenfetch composer curl gnome-sushi
-sudo apt-get -y install wget docker.io docker-compose curl gnome-tweaks
+sudo apt-get install -y php-xdebug php-pacl openjdk-11-jdk usb-creator-gtk
+sudo apt-get install -y transmission git git-core zsh python3-pip
+sudo apt-get install -y filezilla vim vlc build-essential gdebi cargo
+sudo apt-get install -y htop screenfetch composer curl gnome-sushi
+sudo apt-get install -y wget docker.io docker-compose curl gnome-tweaks
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
@@ -34,6 +31,7 @@ curl -sL https://dl.yarnpkg.com/debian/pubkey.gpg | sudo apt-key add -
 echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sources.list.d/yarn.list
 sudo apt-get update 
 sudo apt-get install -y nodejs yarn
+
 #gitKraken
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
@@ -48,10 +46,10 @@ sudo apt-get update
 sudo apt-get -y install albert
 
 #Github Desktop
-wget https://github.com/shiftkey/desktop/releases/download/release-2.5.0-linux2/GitHubDesktop-linux-2.5.0-linux2.deb
-sudo dpkg -i GitHubDesktop-linux-2.5.0-linux2.deb
-sudo apt-get -f -y install
-rm -rf GitHubDesktop-linux-2.5.0-linux2.deb
+wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo apt-key add -
+sudo sh -c 'echo "deb [arch=amd64] https://packagecloud.io/shiftkey/desktop/any/ any main" > /etc/apt/sources.list.d/packagecloud-shiftky-desktop.list'
+sudo apt-get update
+sudo apt-get install -y github-desktop
 
 sudo snap install code --classic
 sudo snap install intellij-idea-ultimate --classic
