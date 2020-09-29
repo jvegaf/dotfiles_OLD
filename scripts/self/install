@@ -37,7 +37,7 @@ chsh -s "$(command -v zsh)"
 #git config --global user.email "$git_email"
 #git config --global user.name "$git_name"
 
-"$DOTFILES_PATH/bin/dot" self update
-
 source "$DOTFILES_PATH/modules/zimfw/zimfw.zsh" install
+
+"$DOTFILES_PATH/bin/dot" self update
 
