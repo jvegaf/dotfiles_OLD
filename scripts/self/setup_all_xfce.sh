@@ -6,11 +6,11 @@ sudo add-apt-repository ppa:ondrej/php -y
 
 sudo apt update 
 sudo apt upgrade -y
-sudo apt-get install -y php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip}
+sudo apt-get -y install php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip}
 sudo apt-get -y install php-xdebug php-pacl curl usb-creator-gtk git zsh tldr cargo
 sudo apt-get -y install filezilla gdebi transmission vlc mousepad build-essential 
 sudo apt-get -y install htop screenfetch openjdk-11-jdk openjfx composer mongodb conky-all
-sudo apt-get -y install wget docker.io docker-compose curl compizconfig-settings-manager
+sudo apt-get -y install wget docker.io docker-compose compizconfig-settings-manager
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
@@ -35,6 +35,7 @@ sudo apt-get install -y nodejs yarn
 #gitKraken
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
+sudo apt-get -f install
 rm -rf gitkraken-amd64.deb
 
 # Albert
