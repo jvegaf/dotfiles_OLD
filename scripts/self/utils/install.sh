@@ -18,5 +18,5 @@ install_macos_custom() {
 }
 
 install_linux_custom() {
-  sh "$DOTFILES_PATH/scripts/self/setup_all_xfce.sh"
+  sh "$DOTFILES_PATH/scripts/self/setup_all_ubuntu.sh"
 }
