@@ -1,16 +1,7 @@
 #!/usr/bin/env bash
+ZIM_HOME=${ZDOTDIR:-${HOME}}/.dotfiles/modules/zimfw
 
 set -euo pipefail
-
-source "$DOTFILES_PATH/scripts/core/_main.sh"
-source "$DOTFILES_PATH/scripts/self/utils/install.sh"
-
-##? Install the dotfiles
-#?? 1.0.0
-##?
-##? Usage:
-##?   install
-docs::eval "$@"
 
 if platform::is_macos; then
   log::note "Installing MacOS  custom packages"
@@ -23,6 +14,16 @@ if platform::is_linux; then
 
   install_linux_custom
 fi
+
+source "$DOTFILES_PATH/scripts/core/_main.sh"
+source "$DOTFILES_PATH/scripts/self/utils/install.sh"
+
+##? Install the dotfiles
+#?? 1.0.0
+##?
+##? Usage:
+##?   install
+docs::eval "$@"
 
 log::note "Installing python packages"
 pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt" || true
@@ -37,11 +38,11 @@ pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt"
 log::note "Setting ZSH as the default shell"
 chsh -s "$(command -v zsh)"
 
-read -rp "🦑 Git config: What is you email? " git_email
-read -rp "🐙 Git config: And your name? " git_name
+#read -rp "🦑 Git config: What is you email? " git_email
+#read -rp "🐙 Git config: And your name? " git_name
 
-git config --global user.email "$git_email"
-git config --global user.name "$git_name"
+#git config --global user.email "$git_email"
+#git config --global user.name "$git_name"
 
 "$DOTFILES_PATH/bin/dot" self update
 
