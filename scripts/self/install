@@ -18,8 +18,6 @@ if platform::is_linux; then
   install_linux_custom
 fi
 
-docs::eval "$@"
-
 log::note "Installing python packages"
 pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt" || true
 pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt"
