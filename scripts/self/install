@@ -5,6 +5,7 @@ set -euo pipefail
 
 source "$DOTFILES_PATH/scripts/core/_main.sh"
 source "$DOTFILES_PATH/scripts/self/utils/install.sh"
+source "$DOTFILES_PATH/scripts/self/utils/symlinks_tool.sh"
 
 if platform::is_macos; then
   log::note "Installing MacOS  custom packages"
@@ -28,15 +29,23 @@ pip3 install -r "$DOTFILES_PATH/langs/python/requirements.txt"
 #log::note "Installing npm packages"
 #xargs sudo npm install -g <"$DOTFILES_PATH/langs/js/global_modules.txt"
 
+log::note "Applying common Symlinks"
+apply_common_symlinks
+
+log::note "Applying Linux Symlinks"
+apply_linux_symlinks
+
 log::note "Setting ZSH as the default shell"
 chsh -s "$(command -v zsh)"
 
 #read -rp "🦑 Git config: What is you email? " git_email
 #read -rp "🐙 Git config: And your name? " git_name
 
-#git config --global user.email "$git_email"
-#git config --global user.name "$git_name"
+git config --global user.email "josevega234@gmail.com"
+git config --global user.name "Jose Vega"
+
 source "$DOTFILES_PATH/shell/zsh/.zshenv"
+
 source "$DOTFILES_PATH/modules/zimfw/zimfw.zsh" install
 
 "$DOTFILES_PATH/bin/dot" self update
