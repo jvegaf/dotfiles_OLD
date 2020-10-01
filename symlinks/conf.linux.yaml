@@ -7,5 +7,7 @@
 
 - link:
     ~/.Xresources: linux/.Xresources
+    ~/.xprofile: linux/.xprofile
     ~/.local/share/fonts: fonts
     ~/.config/albert/albert.conf: linux/configs/albert/albert.conf
+    ~/.config/autostart: linux/autostart
