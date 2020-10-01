@@ -35,7 +35,7 @@ sudo apt-get install -y nodejs yarn
 #gitKraken
 wget https://release.gitkraken.com/linux/gitkraken-amd64.deb
 sudo dpkg -i gitkraken-amd64.deb
-sudo apt-get -f install
+sudo apt-get -f -y install
 rm -rf gitkraken-amd64.deb
 
 # Albert
@@ -44,6 +44,7 @@ echo 'deb http://download.opensuse.org/repositories/home:/manuelschneid3r/xUbunt
 sudo wget -nv https://download.opensuse.org/repositories/home:manuelschneid3r/xUbuntu_20.04/Release.key -O "/etc/apt/trusted.gpg.d/home:manuelschneid3r.asc"
 sudo apt-get update
 sudo apt-get -y install albert
+
 
 #Github Desktop
 wget -qO - https://packagecloud.io/shiftkey/desktop/gpgkey | sudo apt-key add -
