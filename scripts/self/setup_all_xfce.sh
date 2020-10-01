@@ -57,5 +57,3 @@ sudo snap install intellij-idea-ultimate --classic
 #docpars
 cargo install docpars
 export PATH="$PATH:$HOME/.cargo/bin"
-
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended
