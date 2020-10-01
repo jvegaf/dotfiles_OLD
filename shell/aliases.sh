@@ -1,5 +1,6 @@
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
+alias fuck='sudo !!'
 
 alias ..="cd .."
 alias ...="cd ../.."
@@ -19,7 +20,7 @@ alias gco="git checkout"
 alias gd="dot git pretty-diff"
 alias gs="git status -sb"
 alias gf="git fetch --all -p"
-alias gps="git push"
+alias gp="git push"
 alias gpsf="git push --force"
 alias gpl="git pull --rebase --autostash"
 alias gl="dot git pretty-log"
@@ -31,6 +32,6 @@ alias vcode='/usr/local/bin/code'
 alias vt='vim $(mktemp $TMPDIR/$(uuidgen).txt)'
 alias htop='btm'
 
-alias i.='(idea $PWD &>/dev/null &)'
+alias i.='(intellij-idea-ultimate $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
