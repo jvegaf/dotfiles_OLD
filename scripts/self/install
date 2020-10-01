@@ -7,6 +7,13 @@ source "$DOTFILES_PATH/scripts/core/_main.sh"
 source "$DOTFILES_PATH/scripts/self/utils/install.sh"
 source "$DOTFILES_PATH/scripts/self/utils/symlinks_tool.sh"
 
+##? Install the dotfiles
+#?? 1.0.0
+##?
+##? Usage:
+##?   install
+docs::eval "$@"
+
 if platform::is_macos; then
   log::note "Installing MacOS  custom packages"
 
