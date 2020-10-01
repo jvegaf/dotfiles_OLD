@@ -4,7 +4,7 @@ alias fuck='sudo !!'
 
 alias ..="cd .."
 alias ...="cd ../.."
-alias ll="exa -l"
+alias l="exa -l"
 alias la="exa -la"
 
 # Jumps
