@@ -57,3 +57,4 @@ sudo snap install intellij-idea-ultimate --classic
 
 #docpars
 cargo install docpars
+cargo install exa
