@@ -44,9 +44,9 @@ chsh -s "$(command -v zsh)"
 git config --global user.email "josevega234@gmail.com"
 git config --global user.name "Jose Vega"
 
-source "$DOTFILES_PATH/shell/zsh/.zshenv"
+# source "$DOTFILES_PATH/shell/zsh/.zshenv"
 
-source "$DOTFILES_PATH/modules/zimfw/zimfw.zsh" install
+zsh "$DOTFILES_PATH/modules/zimfw/zimfw.zsh" install
 
 "$DOTFILES_PATH/bin/dot" self update
 
