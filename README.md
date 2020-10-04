@@ -4,6 +4,10 @@
 
 ## 🚀 Installation
 ```bash
+sudo apt install zsh curl git
+
+zsh
+
 bash <(curl -s https://raw.githubusercontent.com/jvegaf/dotfiles/master/installer)
 ```
 
