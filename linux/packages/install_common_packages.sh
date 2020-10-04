@@ -7,7 +7,7 @@ sudo add-apt-repository ppa:ondrej/php -y
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get -y install php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug php-pacl tldr cargo python3-pip filezilla gdebi transmission vlc build-essential fzf htop screenfetch openjdk-11-jdk openjfx composer wget docker.io docker-compose vim simplescreenrecorder
+sudo apt-get -y install cargo php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug tldr python3-pip filezilla gdebi transmission vlc build-essential fzf htop screenfetch openjdk-11-jdk composer wget docker.io docker-compose vim simplescreenrecorder
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
