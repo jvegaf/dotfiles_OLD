@@ -3,7 +3,7 @@
 
 ## php 7.4
 sudo apt -y install software-properties-common
-sudo add-apt-repository ppa:ondrej/php -y
+#sudo add-apt-repository ppa:ondrej/php -y
 
 sudo apt update
 sudo apt upgrade -y
