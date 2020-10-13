@@ -7,10 +7,15 @@ sudo apt -y install software-properties-common
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get -y install cargo php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug php-apcu tldr python3-pip filezilla gdebi transmission vlc build-essential fzf htop screenfetch openjdk-11-jdk composer wget docker.io docker-compose vim simplescreenrecorder rofi
+sudo apt-get -y install cargo php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug php-apcu tldr python3-pip filezilla gdebi transmission vlc build-essential fzf htop screenfetch openjdk-11-jdk composer wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
+
+#emoji-menu       https://github.com/jchook/emoji-menu
+wget 'https://bit.ly/emoji-menu'
+chmod +x emoji-menu
+sudo mv emoji-menu /usr/local/bin
 
 #docker-clean
 curl -s https://raw.githubusercontent.com/ZZROTDesign/docker-clean/v2.0.4/docker-clean |

@@ -1,22 +1,11 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
-[72AE72B8AE727507]
-row=1
-col=0
-
-[1391E3FB001AD77C]
+[Trash]
 row=0
 col=0
 
-[Trash]
-row=2
-col=0
-
-[/]
-row=3
-col=0
-
 [/home/jose]
-row=4
+row=1
 col=0
+

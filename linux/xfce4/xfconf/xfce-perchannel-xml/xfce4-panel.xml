@@ -3,7 +3,7 @@
 <channel name="xfce4-panel" version="1.0">
   <property name="panels" type="uint" value="1">
     <property name="panel-0" type="empty">
-      <property name="position" type="string" value="p=6;x=0;y=0"/>
+      <property name="position" type="string" value="p=8;x=960;y=1067"/>
       <property name="length" type="uint" value="100"/>
       <property name="position-locked" type="bool" value="true"/>
       <property name="plugin-ids" type="array">
@@ -11,15 +11,14 @@
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="4"/>
-        <value type="int" value="13"/>
+        <value type="int" value="9"/>
         <value type="int" value="5"/>
         <value type="int" value="6"/>
         <value type="int" value="7"/>
-        <value type="int" value="8"/>
-        <value type="int" value="9"/>
         <value type="int" value="10"/>
         <value type="int" value="11"/>
         <value type="int" value="12"/>
+        <value type="int" value="8"/>
       </property>
       <property name="background-style" type="uint" value="0"/>
       <property name="size" type="uint" value="24"/>
@@ -48,9 +47,11 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="size-max" type="uint" value="22"/>
       <property name="names-ordered" type="array">
-        <value type="string" value="ibus panel"/>
-        <value type="string" value="ibus-ui-gtk3"/>
-        <value type="string" value="thunar"/>
+        <value type="string" value="simplescreenrecorder"/>
+        <value type="string" value="insync"/>
+        <value type="string" value="update-notifier"/>
+        <value type="string" value="blueman-tray"/>
+        <value type="string" value="networkmanager applet"/>
       </property>
     </property>
     <property name="plugin-6" type="string" value="notification-plugin"/>
@@ -63,28 +64,11 @@
         <value type="string" value="com.canonical.indicator.messages"/>
       </property>
     </property>
-    <property name="plugin-8" type="string" value="statusnotifier">
-      <property name="icon-size" type="uint" value="22"/>
-      <property name="menu-is-primary" type="bool" value="true"/>
-      <property name="mode-whitelist" type="bool" value="false"/>
-      <property name="single-row" type="bool" value="false"/>
-      <property name="square-icons" type="bool" value="true"/>
-      <property name="symbolic-icons" type="bool" value="true"/>
-      <property name="known-items" type="array">
-        <value type="string" value="albert"/>
-        <value type="string" value="chrome_status_icon_2"/>
-        <value type="string" value="chrome_status_icon_1"/>
-        <value type="string" value="software-update-available"/>
-        <value type="string" value="blueman"/>
-        <value type="string" value="nm-applet"/>
-      </property>
-    </property>
-    <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="chrome.instance1958;chrome.instance2013;chrome.instance2752;chrome.instance3886;chrome.instance81182;firefox.instance57987;parole"/>
+      <property name="mpris-players" type="string" value="chrome.instance1900;chrome.instance2963;chrome.instance4277;parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-11" type="string" value="separator">
@@ -93,8 +77,10 @@
     </property>
     <property name="plugin-12" type="string" value="clock">
       <property name="digital-format" type="string" value="%d %b, %H:%M"/>
+      <property name="mode" type="uint" value="2"/>
     </property>
-    <property name="plugin-13" type="string" value="pager"/>
+    <property name="plugin-8" type="string" value="xkb"/>
+    <property name="plugin-9" type="string" value="pager"/>
   </property>
   <property name="configver" type="int" value="2"/>
 </channel>
