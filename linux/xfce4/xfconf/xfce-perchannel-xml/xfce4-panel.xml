@@ -47,6 +47,7 @@
       <property name="square-icons" type="bool" value="true"/>
       <property name="size-max" type="uint" value="22"/>
       <property name="names-ordered" type="array">
+        <value type="string" value="network"/>
         <value type="string" value="simplescreenrecorder"/>
         <value type="string" value="insync"/>
         <value type="string" value="update-notifier"/>
@@ -68,7 +69,7 @@
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="enable-mpris" type="bool" value="true"/>
       <property name="mixer-command" type="string" value="pavucontrol"/>
-      <property name="mpris-players" type="string" value="chrome.instance1900;chrome.instance2963;chrome.instance4277;parole"/>
+      <property name="mpris-players" type="string" value="chrome.instance1900;chrome.instance2591;chrome.instance2963;chrome.instance4277;parole"/>
       <property name="show-notifications" type="bool" value="true"/>
     </property>
     <property name="plugin-11" type="string" value="separator">
