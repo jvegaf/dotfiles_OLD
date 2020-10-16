@@ -22,6 +22,6 @@ apply_common_symlinks
 log::note "Applying Linux Symlinks"
 apply_linux_symlinks
 
-# log::note "Updating submodules"
-# update_submodules
+log::note "Updating submodules"
+update_submodules
 

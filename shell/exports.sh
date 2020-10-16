@@ -8,3 +8,4 @@ export LC_ALL="en_US.UTF-8"
 
 export PATH="$PATH:$HOME/.cargo/bin"
 export PATH="$PATH:$DOTFILES_PATH/bin"
+export XDG_USER_CONFIG_DIR="$DOTFILES_PATH/linux/rofi"
