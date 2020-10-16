@@ -1,6 +1,6 @@
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
-alias fuck='sudo !!'
+alias fuck='sudo !! %@'
 
 alias ..="cd .."
 alias ...="cd ../.."
@@ -35,3 +35,10 @@ alias htop='btm'
 alias i.='(intellij-idea-ultimate $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
 alias o.='open .'
+
+
+alias ddc='ddcutil setvcp 0x10 '
+alias ddcx='ddcutil setvcp 0x10 0'
+alias ddcv='ddcutil setvcp 0x10 100'
+
+
