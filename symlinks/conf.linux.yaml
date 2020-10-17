@@ -11,3 +11,4 @@
     ~/.config/albert/albert.conf: linux/configs/albert/albert.conf
     ~/.config/autostart: linux/autostart
     ~/.config/xfce4: linux/xfce4
+    ~/.themes: linux/themes
