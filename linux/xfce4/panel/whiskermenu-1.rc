@@ -1,5 +1,5 @@
 favorites=exo-mail-reader.desktop,exo-file-manager.desktop,org.gnome.Software.desktop,exo-terminal-emulator.desktop,google-chrome.desktop,code_code.desktop,intellij-idea-ultimate_intellij-idea-ultimate.desktop
-recent=xfce-wm-settings.desktop,xfce-session-settings.desktop,chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop,exo-file-manager.desktop,fr.handbrake.ghb.desktop,exo-terminal-emulator.desktop,org.gnome.Software.desktop,gitkraken.desktop,chrome-mjoklplbddabcmpepnokjaffbmgbkkgg-Default.desktop,intellij-idea-ultimate_intellij-idea-ultimate.desktop
+recent=chrome-hnpfjngllnobngcgfapefoaidbinmjnm-Default.desktop,xfce-wm-settings.desktop,xfce-session-settings.desktop,exo-file-manager.desktop,fr.handbrake.ghb.desktop,exo-terminal-emulator.desktop,org.gnome.Software.desktop,gitkraken.desktop,chrome-mjoklplbddabcmpepnokjaffbmgbkkgg-Default.desktop,intellij-idea-ultimate_intellij-idea-ultimate.desktop
 button-title=Applications Menu
 button-icon=xubuntu-logo-menu
 button-single-row=false
