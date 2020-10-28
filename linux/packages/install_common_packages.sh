@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 ## php 7.4
