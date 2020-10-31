@@ -20,5 +20,5 @@ install_macos_custom() {
 install_linux_custom() {
   #DISTRO=cat /var/log/installer/media-info | cut -d' ' -f 1
   bash "$DOTFILES_PATH/linux/packages/install_common_packages.sh"
-  bash "$DOTFILES_PATH/linux/packages/setup_all_xubuntu.sh"
+  #bash "$DOTFILES_PATH/linux/packages/setup_all_xubuntu.sh"
 }
