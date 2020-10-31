@@ -2,8 +2,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="McOS-CTLina-XFCE-Dark"/>
-    <property name="IconThemeName" type="empty"/>
+    <property name="ThemeName" type="string" value="McOS-MJV-Dark-XFCE-Edition-patched-2.3"/>
+    <property name="IconThemeName" type="string" value="Os-Catalina-Night"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -25,7 +25,7 @@
   <property name="Gtk" type="empty">
     <property name="CanChangeAccels" type="empty"/>
     <property name="ColorPalette" type="empty"/>
-    <property name="FontName" type="string" value="Roboto Medium 9"/>
+    <property name="FontName" type="string" value="Noto Sans 10"/>
     <property name="MonospaceFontName" type="empty"/>
     <property name="IconSizes" type="empty"/>
     <property name="KeyThemeName" type="empty"/>
@@ -34,9 +34,11 @@
     <property name="MenuImages" type="empty"/>
     <property name="ButtonImages" type="empty"/>
     <property name="MenuBarAccel" type="empty"/>
-    <property name="CursorThemeName" type="string" value="DMZ-Black"/>
+    <property name="CursorThemeName" type="string" value="McMojave-cursors"/>
     <property name="CursorThemeSize" type="empty"/>
-    <property name="DecorationLayout" type="string" value="menu:minimize,maximize,close"/>
+    <property name="DecorationLayout" type="string" value="close,maximize,minimize:"/>
+    <property name="ShellShowsMenubar" type="bool" value="true"/>
+    <property name="ShellShowsAppmenu" type="bool" value="true"/>
   </property>
   <property name="Gdk" type="empty">
     <property name="WindowScalingFactor" type="empty"/>
