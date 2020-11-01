@@ -1,8 +1,5 @@
-app=firefox
+app=gimp-2.10
 last_user=
-screenshot_dir=file:/home/jose/GoogleDrive
+screenshot_dir=file:///home/jose/Pictures
 action=2
-delay=0
-region=3
-show_mouse=1
 

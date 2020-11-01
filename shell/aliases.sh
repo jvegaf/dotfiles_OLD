@@ -34,7 +34,7 @@ alias htop='btm'
 
 alias i.='(intellij-idea-ultimate $PWD &>/dev/null &)'
 alias c.='(code $PWD &>/dev/null &)'
-alias o.='nemo .'
+alias o.='thunar .'
 
 
 alias ddc='ddcutil setvcp 0x10 '
