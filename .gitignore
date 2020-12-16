@@ -20,4 +20,4 @@ shell/zsh/**/**.zwc.old
 .idea
 /dotfiles.iml
 
-linux/icons/hicolor/128x128/apps/chrome-*.png
+chrome-*.png
