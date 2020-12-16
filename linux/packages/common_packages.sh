@@ -6,7 +6,7 @@ sudo apt -y install software-properties-common
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt-get -y install cargo php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug php-apcu tldr python3-pip filezilla gdebi transmission vlc build-essential fzf htop screenfetch openjdk-11-jdk composer wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils
+sudo apt-get -y install cargo php7.4-{cli,xml,bcmath,bz2,intl,gd,mbstring,mysql,zip} php-xdebug php-apcu tldr python3-pip filezilla gdebi transmission vlc build-essential fzf htop screenfetch openjdk-11-jdk composer wget docker.io docker-compose vim simplescreenrecorder rofi xclip xdotool grep coreutils locate
 sudo systemctl start docker
 sudo systemctl enable docker
 sudo usermod -aG docker $USER
