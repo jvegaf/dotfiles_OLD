@@ -4,5 +4,5 @@
       glob: true
 
 - link:
-    ~/.config/JetBrains/IntelliJIdea2020.2/jba_config/linux.keymaps: editors/intellij/linux.keymaps
-    ~/.config/JetBrains/IntelliJIdea2020.2/idea.vmoptions: editors/intellij/idea.vmoptions
+    ~/.config/JetBrains/**/jba_config/linux.keymaps: editors/intellij/linux.keymaps
+    ~/.config/JetBrains/**/idea.vmoptions: editors/intellij/idea.vmoptions

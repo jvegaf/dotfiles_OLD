@@ -2,8 +2,8 @@
 
 <channel name="xsettings" version="1.0">
   <property name="Net" type="empty">
-    <property name="ThemeName" type="string" value="McOS-MJV-Dark-XFCE-Edition-patched-2.3"/>
-    <property name="IconThemeName" type="string" value="Os-Catalina-Night"/>
+    <property name="ThemeName" type="string" value="Greybird-dark"/>
+    <property name="IconThemeName" type="string" value="elementary-xfce-dark"/>
     <property name="DoubleClickTime" type="empty"/>
     <property name="DoubleClickDistance" type="empty"/>
     <property name="DndDragThreshold" type="empty"/>
@@ -36,7 +36,7 @@
     <property name="MenuBarAccel" type="empty"/>
     <property name="CursorThemeName" type="string" value="McMojave-cursors"/>
     <property name="CursorThemeSize" type="empty"/>
-    <property name="DecorationLayout" type="string" value="close,maximize,minimize:"/>
+    <property name="DecorationLayout" type="string" value=":minimize,maximize,close"/>
     <property name="ShellShowsMenubar" type="bool" value="true"/>
     <property name="ShellShowsAppmenu" type="bool" value="true"/>
   </property>

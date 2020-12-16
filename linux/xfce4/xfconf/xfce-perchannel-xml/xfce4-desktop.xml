@@ -95,7 +95,7 @@
         <property name="workspace0" type="empty">
           <property name="color-style" type="int" value="0"/>
           <property name="image-style" type="int" value="5"/>
-          <property name="last-image" type="string" value="/usr/share/xfce4/backdrops/xubuntu-wallpaper.png"/>
+          <property name="last-image" type="string" value="/home/jose/Pictures/343226.jpg"/>
         </property>
         <property name="workspace1" type="empty">
           <property name="color-style" type="int" value="0"/>
@@ -176,7 +176,7 @@
     </property>
   </property>
   <property name="last" type="empty">
-    <property name="window-width" type="int" value="576"/>
-    <property name="window-height" type="int" value="590"/>
+    <property name="window-width" type="int" value="596"/>
+    <property name="window-height" type="int" value="602"/>
   </property>
 </channel>

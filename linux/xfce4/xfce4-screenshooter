@@ -1,6 +1,6 @@
 app=firefox
 last_user=
-screenshot_dir=file:/home/jose/GoogleDrive
+screenshot_dir=file:///home/jose/Pictures
 action=2
 delay=0
 region=3
