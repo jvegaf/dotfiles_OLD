@@ -6,6 +6,6 @@
       force: true
 
 - link:
-    ~/.Xresources: linux/.Xresources
+    ~/.Xresources: os/linux/.Xresources
     ~/.local/share/fonts: fonts
-    ~/.local/share/icons: linux/icons
+    ~/.local/share/icons: os/linux/icons
