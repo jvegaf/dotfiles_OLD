@@ -18,7 +18,7 @@ echo "Installing previuos dependencies"
 sudo apt update && sudo apt install -y fzf rustc cargo
 #sudo pacman -S rust fzf
 chsh -s `which zsh`
-cargo install exa docpars delta
+cargo install exa docpars
 export PATH="$HOME/.cargo/bin:$PATH"
 
 export DOTFILES_PATH="$HOME/.dotfiles"
