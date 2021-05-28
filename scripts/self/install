@@ -8,7 +8,8 @@ set -euo pipefail
 ##?
 ##? Usage:
 ##?   install
-docs::eval "$@"
+
+#docs::eval "$@"
 
 if platform::is_macos; then
   log::note "Installing MacOS  custom packages"
