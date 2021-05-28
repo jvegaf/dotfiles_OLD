@@ -8,9 +8,4 @@
 - link:
     ~/.Xresources: linux/.Xresources
     ~/.local/share/fonts: fonts
-    ~/.config/autostart: linux/autostart
-    ~/.config/xfce4: linux/xfce4
-    ~/.config/plank: linux/configs/plank
-    ~/.themes: linux/themes
     ~/.local/share/icons: linux/icons
-    ~/.local/share/plank: linux/plank

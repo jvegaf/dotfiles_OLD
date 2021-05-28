@@ -1,10 +1,8 @@
-[submodule "modules/zimfw"]
-	path = modules/zimfw
-	url = https://github.com/zimfw/zimfw.git
+[submodule "modules/oh-my-zsh"]
+    path = modules/oh-my-zsh
+    url = https://github.com/robbyrussell/oh-my-zsh.git
+    ignore = dirty
 [submodule "modules/dotbot"]
 	path = modules/dotbot
 	url = https://github.com/anishathalye/dotbot.git
     ignore = dirty
-[submodule "modules/z"]
-	path = modules/z
-	url = https://github.com/rupa/z.git

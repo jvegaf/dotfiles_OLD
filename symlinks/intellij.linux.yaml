@@ -1,8 +1,0 @@
-- defaults:
-    link:
-      force: true
-      glob: true
-
-- link:
-    ~/.config/JetBrains/**/jba_config/linux.keymaps: editors/intellij/linux.keymaps
-    ~/.config/JetBrains/**/idea.vmoptions: editors/intellij/idea.vmoptions

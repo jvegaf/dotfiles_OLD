@@ -1,2 +1,2 @@
 export DOTFILES_PATH=$HOME/.dotfiles
-export ZIM_HOME=${ZDOTDIR:-${HOME}}/.dotfiles/modules/zimfw
+export ZSH=${ZDOTDIR:-${HOME}}/.dotfiles/modules/oh-my-zsh

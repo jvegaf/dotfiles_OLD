@@ -22,3 +22,7 @@ install_linux_custom() {
   bash "$DOTFILES_PATH/linux/packages/common_packages.sh"
   #bash "$DOTFILES_PATH/linux/packages/xubuntu.sh"
 }
+
+install_linux_deps(){
+  bash "$DOTFILES_PATH/linux/packages/common_packages.sh"
+}

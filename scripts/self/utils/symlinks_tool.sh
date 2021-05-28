@@ -19,7 +19,3 @@ apply_common_symlinks() {
 apply_linux_symlinks() {
   apply_symlinks "conf.linux.yaml"
 }
-
-apply_intellij_symlinks() {
-  apply_symlinks "intellij.linux.yaml"
-}

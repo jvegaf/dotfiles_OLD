@@ -5,8 +5,10 @@
 setopt HIST_IGNORE_ALL_DUPS
 setopt HIST_FCNTL_LOCK
 
-# Start zim
-source "$ZIM_HOME/init.zsh"
+# Start oh my zsh
+ZSH_THEME="agnoster"
+plugins=(git)
+source "$ZSH/oh-my-zsh.sh"
 
 # Async mode for autocompletion
 ZSH_AUTOSUGGEST_USE_ASYNC=true
@@ -14,9 +16,6 @@ ZSH_HIGHLIGHT_MAXLENGTH=300
 
 source "$DOTFILES_PATH/shell/init.sh"
 
-fpath=("$DOTFILES_PATH/shell/zsh/themes" "$DOTFILES_PATH/shell/zsh/completions" $fpath)
-
-autoload -Uz promptinit && promptinit
-prompt codelytv
+fpath=("$DOTFILES_PATH/shell/zsh/completions" $fpath)
 
 source $DOTFILES_PATH/shell/zsh/key-bindings.zsh

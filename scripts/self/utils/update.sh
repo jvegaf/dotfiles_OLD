@@ -11,13 +11,13 @@ self_update() {
 }
 
 update_submodules() {
-  cd "$ZIM_HOME" || exit
+  # cd "$ZIM_HOME" || exit
 
-  zsh "$ZIM_HOME/zimfw.zsh" upgrade
-  rm -rf "$ZIM_HOME/modules/"* && zsh "$ZIM_HOME/zimfw.zsh" install
-  zsh "$ZIM_HOME/zimfw.zsh" update
+  # zsh "$ZIM_HOME/zimfw.zsh" upgrade
+  # rm -rf "$ZIM_HOME/modules/"* && zsh "$ZIM_HOME/zimfw.zsh" install
+  # zsh "$ZIM_HOME/zimfw.zsh" update
 
-  git submodule foreach "git discard"
+  # git submodule foreach "git discard"
 }
 
 project_status() {
