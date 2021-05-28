@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+source "$DOTFILES_PATH/shell/zsh/.zshenv"
 source "$DOTFILES_PATH/scripts/core/_main.sh"
+source "$DOTFILES_PATH/scripts/self/utils/install.sh"
 source "$DOTFILES_PATH/scripts/self/utils/symlinks_tool.sh"
 
 set -euo pipefail
@@ -44,7 +46,6 @@ log::note "Setting ZSH as the default shell"
 sudo usermod -s "$(which zsh)"
 # chsh -s "$(command -v zsh)"
 
-source "$DOTFILES_PATH/shell/zsh/.zshenv"
 
 "$DOTFILES_PATH/bin/dot" self update
 

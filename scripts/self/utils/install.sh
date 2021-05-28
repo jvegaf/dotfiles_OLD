@@ -24,5 +24,6 @@ install_linux_custom() {
 }
 
 install_linux_deps(){
-  bash "$DOTFILES_PATH/linux/packages/common_packages.sh"
+  #bash "$DOTFILES_PATH/linux/packages/common_packages.sh"
+  echo "packages installed previously"
 }
