@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-export PATH="$HOME/.cargo/bin:$PATH"
+source "$DOTFILES_PATH/scripts/core/_main.sh"
+source "$DOTFILES_PATH/scripts/self/utils/symlinks_tool.sh"
 
 set -euo pipefail
 
@@ -9,7 +10,7 @@ set -euo pipefail
 ##? Usage:
 ##?   install
 
-#docs::eval "$@"
+docs::eval "$@"
 
 if platform::is_macos; then
   log::note "Installing MacOS  custom packages"
