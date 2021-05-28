@@ -24,6 +24,6 @@ export PATH="$HOME/.cargo/bin:$PATH"
 export DOTFILES_PATH="$HOME/.dotfiles"
 echo "👉  Cloning into: '$DOTFILES_PATH'"
 
-git clone --recurse-submodules -j8 --depth 1 https://github.com/jvegaf/dotfiles.git "$DOTFILES_PATH"
+git clone --recurse-submodules -j8 --depth 1 https://github.com/jvegaf/dotfiles_OLD.git "$DOTFILES_PATH"
 
 "$DOTFILES_PATH/bin/dot" self install
